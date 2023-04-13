@@ -1,7 +1,7 @@
 steps:
 - name: 'gcr.io/cloud-builders/gcloud'
- entrypoint: 'bash'
- args:
- - '-c'
- - 'gcloud functions call delete-version-app-engine --data "{}"'
+  entrypoint: 'bash'
+  args:
+  - '-c'
+  - 'gcloud functions call delete-version-app-engine --data "{}"'
 
